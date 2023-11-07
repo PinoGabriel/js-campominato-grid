@@ -24,8 +24,18 @@ header {
 }
 
 button {
-    padding: 0.3rem 2rem;
+    padding: 0.5rem 2rem;
     border-radius: 0.4rem;
+    display: inline-block;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: black;
 }
 
 /************ INIZIO MAIN *********************/
@@ -43,10 +53,28 @@ main {
     margin: 0 auto;
 }
 
-.square {
+.square_easy {
     border: 1px solid black;
     width: calc(100% / 10);
     height: calc(100% / 10);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square_medium {
+    border: 1px solid black;
+    width: calc(100% / 9);
+    height: calc(100% / 9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.square_hard {
+    border: 1px solid black;
+    width: calc(100% / 7);
+    height: calc(100% / 7);
     display: flex;
     justify-content: center;
     align-items: center;

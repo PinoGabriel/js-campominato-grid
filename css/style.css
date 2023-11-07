@@ -1,0 +1,58 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+/************ INIZIO HEADER *********************/
+:root {
+    --height-hf: 80px
+}
+
+
+header {
+    height: 100px;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 2rem;
+}
+
+button {
+    padding: 0.3rem 2rem;
+    border-radius: 0.4rem;
+}
+
+/************ INIZIO MAIN *********************/
+
+main {
+    height: calc(100vh - 200px);
+    background-color: #7FFFD4;
+    overflow-y: auto;
+}
+
+.container_main {
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+    height: 900px;
+    margin: 0 auto;
+}
+
+.square {
+    margin: 4rem 0;
+    border: 1px solid black;
+    width: calc(100% / 8);
+    height: calc(100% / 8);
+
+
+/************ INIZIO FOOTER *********************/
+
+footer {
+    height: 100px;
+}

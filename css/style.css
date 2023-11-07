@@ -50,6 +50,11 @@ main {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.square_bg {
+   background-color: cyan; 
+}
 
 
 /************ INIZIO FOOTER *********************/

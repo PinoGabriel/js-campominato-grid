@@ -11,16 +11,12 @@
     --height-hf: 80px
 }
 
-
-header {
-    height: 100px;
-}
-
 .container_header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 2rem 2rem;
+    height: 100px;
 }
 
 button {
@@ -34,8 +30,17 @@ button {
     transition: background-color 0.3s;
 }
 
+.left_side {
+    display: flex;
+    align-items: center;
+}
+
 button:hover {
     background-color: black;
+}
+
+.logo {
+    width: 50px;
 }
 
 /************ INIZIO MAIN *********************/
@@ -89,4 +94,7 @@ main {
 
 footer {
     height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0 2rem;
 }
